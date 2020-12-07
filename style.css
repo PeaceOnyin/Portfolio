@@ -1,0 +1,118 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    color: white;
+ 
+   }
+      #Para{
+          font-family: 'Courier New', Courier, monospace;
+          text-align: center;
+          font-weight: 300;
+          font-size: 30px;
+
+    }
+    #peace{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+
+    }
+    #butt{
+       
+        background-color: blue;
+        color: white;
+        padding:10px;
+       align-self: center;
+        border: 2px solid blue;
+        border-radius: 5px;
+    }
+    #butt:hover{
+        background-color: rgba(6, 6, 179, 0.25);
+        border:none;
+        padding: 15px;
+    }
+
+.topnav{
+    background-color: rgba(196, 185, 185, 0.25);
+    max-width: 100%;
+    height: 20%;
+    padding-bottom: 18px;
+    color:rgb(65, 50, 50);
+   
+  
+}
+.container{
+    background-color: rgb(65, 50, 50);
+    max-width: 100%;
+    background-image: url(./bg-intro-desktop.png);
+    padding-bottom: 120px;
+    
+    padding-left: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+#one{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:orange;
+    text-shadow: 2px 2px 8px #000;
+ text-align: center;
+ padding-bottom: 0;
+    font-size: 300%;
+    font-weight:500%;
+  
+}
+.body{
+margin-left: 10px;
+text-align:left;
+max-width: 50%;
+font-size: 110%;
+line-height: 30px;
+font-weight: bold;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+.img1{
+    border-radius: 10%;
+   width: 30%;
+   float: right;
+}
+
+#body{
+    display: flex;
+   
+}
+#two{
+    text-align: center;
+    font-size: 600;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    width:100%;
+    padding-bottom: 40px;
+    border-top: 2px solid white;
+   
+}
+#footer{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width:700px){
+    #body{
+        flex-wrap: wrap;
+    }
+.body{
+  max-width:100%;
+    
+}
+#body img{
+  width:95%;
+   align-self: center;
+    
+}
+}
